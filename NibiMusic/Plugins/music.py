@@ -204,12 +204,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴍʏ ᴏᴡɴᴇʀ](https://t.me/{OWNER_USERNAME})** ")
+                        f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴍʏ ᴏᴡɴᴇʀ](https://t.me/mrs_yamraj)** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴍʏ ᴏᴡɴᴇʀ](https://t.me/{OWNER_USERNAME})*")
+            f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴍʏ ᴏᴡɴᴇʀ](https://t.me/mrs_yamraj)*")
         return
     
     audio = (
@@ -235,8 +235,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GROUP}"),
-                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHANNEL}"),
+                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/best_friends_chatting_grup"),
+                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/mistyamraj_ki_kahani"),
             ],
             [   InlineKeyboardButton(text=" ᴄʟᴏsᴇ ", callback_data="close_play")
             ]
@@ -274,8 +274,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GROUP}"),
-                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHANNEL}"),
+                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/best_friends_chatting_grup"),
+                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/mistyamraj_ki_kahani"),
             ],
             [   InlineKeyboardButton(text=" ᴄʟᴏsᴇ ", callback_data="close_play")
             ]
@@ -289,8 +289,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GROUP}"),
-                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHANNEL}"),
+                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/best_friends_chatting_grup"),
+                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/mistyamraj_ki_kahani"),
             ],
             [   InlineKeyboardButton(text=" ᴄʟᴏsᴇ ", callback_data="close_play")
             ]
@@ -345,8 +345,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GROUP}"),
-                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHANNEL}"),
+                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/best_friends_chatting_grup"),
+                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/mistyamraj_ki_kahani"),
             ],
             [   InlineKeyboardButton(text=" ᴄʟᴏsᴇ ", callback_data="close_play")
             ]
@@ -368,7 +368,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption=f"**➻ ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ ϙᴜᴇᴜᴇ » {position} **\n\n​ 🍒**ɴᴀᴍᴇ :**[{title[:65]}]({url})\n⏰ ** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n👀 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ : **{bsdk}",
+            caption=f"**➻ ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ ϙᴜᴇᴜᴇ » {position} **\n\n​ 🍒**ɴᴀᴍᴇ :**[{title[:65]}]({url})\n⏰ ** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n👀 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ : **MR_YANRAJ",
             reply_markup=keyboard,
         )
     else:
@@ -385,7 +385,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**➻ ꜱᴛᴀʀᴛᴇᴅ ꜱᴛʀᴇᴀᴍɪɴɢ\n\n🍒 ɴᴀᴍᴇ : **[{title[:65]}]({url})\n⏰ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n👀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ​:** {bsdk}\n",
+            caption=f"**➻ ꜱᴛᴀʀᴛᴇᴅ ꜱᴛʀᴇᴀᴍɪɴɢ\n\n🍒 ɴᴀᴍᴇ : **[{title[:65]}]({url})\n⏰ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n👀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ​:** MR_YAMRAJ\n",
            )
 
     os.remove("final.png")
