@@ -1,9 +1,9 @@
 {
-    "name": "ɴɪʙɪ ✘ ᴍᴜsɪᴄ",
-    "logo": "https://te.legra.ph/file/086426b04c04a3c16f558.jpg",
+    "name": "misty ✘ ᴍᴜsɪᴄ",
+    "logo": "https://graph.org/file/92484a4578afe8348ed74.jpg",
     "description": "ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴛʜᴇ ʙᴏᴛ ʜᴜʙ.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/NirjonX69/NibiMusic",
+    "repository": "https://github.com/Anup8273/opbotnew",
     "stack": "container",
     "env": {
         "BOT_USERNAME": {
