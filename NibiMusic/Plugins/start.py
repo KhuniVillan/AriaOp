@@ -36,7 +36,7 @@ async def start_(client: Client, message: Message):
     reply_markup=InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/Mistyopmusic_bot}?startgroup=true")
+            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/Mistyopmusic_bot?startgroup=true")
         ],
         [
             InlineKeyboardButton("🍂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/best_friends_chatting_grup"),
