@@ -6,13 +6,13 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 NIBI_IMG = (
-"https://te.legra.ph/file/1b82afbf90d074849136e.jpg",
-"https://te.legra.ph/file/0f64be1cf523f76aa0e2e.jpg",
-"https://te.legra.ph/file/1bedd3d90170cc6da5282.jpg",
-"https://te.legra.ph/file/c18b4ff72e93a1def1eef.jpg",
-"https://te.legra.ph/file/43b1aff6ba286cd61b4cc.jpg",
-"https://te.legra.ph/file/45f301147ffede1856f0d.jpg",
-"https://te.legra.ph/file/40f551a935da47f59ff64.jpg",
+"https://graph.org/file/92484a4578afe8348ed74.jpg",
+"https://graph.org/file/92484a4578afe8348ed74.jpg",
+"https://graph.org/file/92484a4578afe8348ed74.jpg",
+"https://graph.org/file/92484a4578afe8348ed74.jpg",
+"https://graph.org/file/92484a4578afe8348ed74.jpg",
+"https://graph.org/file/92484a4578afe8348ed74.jpg",
+"https://graph.org/file/92484a4578afe8348ed74.jpg",
 
 )
 
@@ -36,15 +36,15 @@ async def start_(client: Client, message: Message):
     reply_markup=InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/Mistyopmusic_bot}?startgroup=true")
         ],
         [
-            InlineKeyboardButton("🍂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/{SUPPORT_GROUP}"),
-            InlineKeyboardButton("🌾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/{UPDATE_CHANNEL}")
+            InlineKeyboardButton("🍂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/best_friends_chatting_grup"),
+            InlineKeyboardButton("🌾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/mistyamraj_ki_kahani")
         ],
         [
             InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_cmd"),
-            InlineKeyboardButton("🎓 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/{OWNER_USERNAME}"),
+            InlineKeyboardButton("🎓 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/brahmaan_sher"),
         ]
    
      ]
