@@ -46,15 +46,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="home":
         buttons = [
         [
-            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/Mistyopmusic_bot?startgroup=true")
         ],
         [
-            InlineKeyboardButton("🍂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/{SUPPORT_GROUP}"),
-            InlineKeyboardButton("🌾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/{UPDATE_CHANNEL}")
+            InlineKeyboardButton("🍂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/best_friends_chatting_grup"),
+            InlineKeyboardButton("🌾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/mistyamraj_ki_kahani")
         ],
         [
             InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_cmd"),
-            InlineKeyboardButton("🎓 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/{OWNER_USERNAME}"),
+            InlineKeyboardButton("🎓 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/mrs_yamraj"),
         ]
    
      ]
