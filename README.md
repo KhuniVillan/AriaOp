@@ -1,6 +1,6 @@
-# ɴɪʙɪ ᴍᴜsɪᴄ
+# MISTY ᴍᴜsɪᴄ
 
-<p align="center"><img src="https://graph.org/file/1aa17a6f7725b70e05f62.jpg" width="300"></a></p>
+<p align="center"><img src="https://graph.org/file/92484a4578afe8348ed74.jpg" width="300"></a></p>
 <p align="center">
 
 
