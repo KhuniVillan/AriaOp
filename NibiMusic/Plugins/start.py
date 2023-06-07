@@ -6,13 +6,13 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 NIBI_IMG = (
-"https://graph.org/file/92484a4578afe8348ed74.jpg",
-"https://graph.org/file/92484a4578afe8348ed74.jpg",
-"https://graph.org/file/92484a4578afe8348ed74.jpg",
-"https://graph.org/file/92484a4578afe8348ed74.jpg",
-"https://graph.org/file/92484a4578afe8348ed74.jpg",
-"https://graph.org/file/92484a4578afe8348ed74.jpg",
-"https://graph.org/file/92484a4578afe8348ed74.jpg",
+"https://graph.org/file/c2f110353910f1a166016.jpg",
+"https://graph.org/file/c2f110353910f1a166016.jpg",
+"https://graph.org/file/c2f110353910f1a166016.jpg",
+"https://graph.org/file/c2f110353910f1a166016.jpg",
+"https://graph.org/file/c2f110353910f1a166016.jpg",
+"https://graph.org/file/c2f110353910f1a166016.jpg",
+"https://graph.org/file/c2f110353910f1a166016.jpg",
 
 )
 
@@ -21,7 +21,7 @@ NIBI_IMG = (
 
 
 START_TEXT = """
-ʜɪ ɢᴜʏꜱ, ɪ ᴀᴍ ᴠᴇʀʏ ʜɪɢʜʟʏ ᴀ.ɪ ᴀᴅᴠᴀɴᴄᴇᴅ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴠᴄ ʙᴏᴛ.
+ʜɪ ɢᴜʏꜱ, ɪ ᴀᴍ ᴀʀɪᴀ x ᴍᴜsɪᴄ ᴀ ᴠᴇʀʏ ʜɪɢʜʟʏ ᴀ.ɪ ᴀᴅᴠᴀɴᴄᴇᴅ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴠᴄ ʙᴏᴛ.
 ɪ' ᴍ ᴠᴇʀʏ ғᴀꜱᴛ ᴀɴᴅ ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ ꜱᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ !
 """
 
@@ -36,15 +36,15 @@ async def start_(client: Client, message: Message):
     reply_markup=InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/Mistyopmusic_bot?startgroup=true")
+            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/AriaXMusic_bot?startgroup=true")
         ],
         [
-            InlineKeyboardButton("🍂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/best_friends_chatting_grup"),
-            InlineKeyboardButton("🌾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/mistyamraj_ki_kahani")
+            InlineKeyboardButton("🍂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/lovingfriendsforever"),
+            InlineKeyboardButton("🌾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Dil_se_dil_tak_01")
         ],
         [
             InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_cmd"),
-            InlineKeyboardButton("🎓 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/brahmaan_sher"),
+            InlineKeyboardButton("🎓 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/MrKhunii"),
         ]
    
      ]
@@ -55,13 +55,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(filters.command(["repo", "source"]))
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/56557bd94afbe895ae483.jpg",
+        photo=f"https://graph.org/file/c2f110353910f1a166016.jpg",
         caption=f"""ʜᴇʀᴇ ɪs ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ғᴏʀᴋ ᴀɴᴅ ɢɪᴠᴇ sᴛᴀʀs ✨""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://t.me/brahmaan_sher"
+                        " ʀᴇᴘᴏ ⚒️", url=f"https://t.me/MrKhunii"
                     )
                 ]
             ]
