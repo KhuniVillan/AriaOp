@@ -139,7 +139,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     font4 = ImageFont.truetype(r'resource/Mukta-ExtraBold.ttf', 35)
 
     image4 = ImageDraw.Draw(image2)
-    image4.text((10, 10), "NIBI MUSIC", fill="white", font = font1, align ="left") 
+    image4.text((10, 10), "ARIA MUSIC", fill="white", font = font1, align ="left") 
     image4.text((670, 150), "NOW PLAYING", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
     # title
@@ -150,7 +150,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     # description
     views = f"Views : {views}"
     duration = f"Duration : {duration} minutes"
-    channel = f"Channel : @TheBotHub"
+    channel = f"Channel : @Dil_se_dil_tak_01"
 
 
     
@@ -180,7 +180,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "NirjonX"
+        user.first_name = "MrKhunii"
     usar = user
     wew = usar.id
     try:
@@ -204,12 +204,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴍʏ ᴏᴡɴᴇʀ](https://t.me/mrs_yamraj)** ")
+                        f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴍʏ ᴏᴡɴᴇʀ](https://t.me/MrKhunii)** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴍʏ ᴏᴡɴᴇʀ](https://t.me/mrs_yamraj)*")
+            f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [ᴍʏ ᴏᴡɴᴇʀ](https://t.me/MrKhunii)*")
         return
     
     audio = (
@@ -227,7 +227,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://graph.org/file/92484a4578afe8348ed74.jpg"
+        thumb_name = "https://graph.org/file/c2f110353910f1a166016.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -235,8 +235,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/best_friends_chatting_grup"),
-                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/mistyamraj_ki_kahani"),
+                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/lovingfriendsforever"),
+                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/Dil_se_dil_tak_01"),
             ],
             [   InlineKeyboardButton(text=" ᴄʟᴏsᴇ ", callback_data="close_play")
             ]
@@ -274,8 +274,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/best_friends_chatting_grup"),
-                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/mistyamraj_ki_kahani"),
+                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/lovingfriendsforever"),
+                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/Dil_se_dil_tak_01"),
             ],
             [   InlineKeyboardButton(text=" ᴄʟᴏsᴇ ", callback_data="close_play")
             ]
@@ -283,14 +283,14 @@ async def play(_, message: Message):
     )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://graph.org/file/92484a4578afe8348ed74.jpg"
+            thumb_name = "https://graph.org/file/c2f110353910f1a166016.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/best_friends_chatting_grup"),
-                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/mistyamraj_ki_kahani"),
+                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/lovingfriendsforever"),
+                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/Dil_se_dil_tak_01"),
             ],
             [   InlineKeyboardButton(text=" ᴄʟᴏsᴇ ", callback_data="close_play")
             ]
@@ -308,7 +308,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             await message.reply_photo(
-                     photo=f"https://graph.org/file/92484a4578afe8348ed74.jpg",
+                     photo=f"https://graph.org/file/c2f110353910f1a166016.jpg",
                      caption="💌 **ᴜsᴀɢᴇ: /play ɢɪᴠᴇ ᴀ ᴛɪᴛʟᴇ sᴏɴɢ ᴛᴏ ᴘʟᴀʏ ᴍᴜsɪᴄ**"
                     
             )
@@ -345,8 +345,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/best_friends_chatting_grup"),
-                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/mistyamraj_ki_kahani"),
+                InlineKeyboardButton(text=" sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/lovingfriendsforever"),
+                InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/Dil_se_dil_tak_01"),
             ],
             [   InlineKeyboardButton(text=" ᴄʟᴏsᴇ ", callback_data="close_play")
             ]
@@ -368,7 +368,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption=f"**➻ ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ ϙᴜᴇᴜᴇ » {position} **\n\n​ 🍒**ɴᴀᴍᴇ :**[{title[:65]}]({url})\n⏰ ** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n👀 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ : **MR_YANRAJ",
+            caption=f"**➻ ᴛʀᴀᴄᴋ ᴀᴅᴅᴇᴅ ᴛᴏ ϙᴜᴇᴜᴇ » {position} **\n\n​ 🍒**ɴᴀᴍᴇ :**[{title[:65]}]({url})\n⏰ ** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n👀 ** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ : **",
             reply_markup=keyboard,
         )
     else:
@@ -385,7 +385,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**➻ ꜱᴛᴀʀᴛᴇᴅ ꜱᴛʀᴇᴀᴍɪɴɢ\n\n🍒 ɴᴀᴍᴇ : **[{title[:65]}]({url})\n⏰ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n👀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ​:** MR_YAMRAJ\n",
+            caption=f"**➻ ꜱᴛᴀʀᴛᴇᴅ ꜱᴛʀᴇᴀᴍɪɴɢ\n\n🍒 ɴᴀᴍᴇ : **[{title[:65]}]({url})\n⏰ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n👀 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ​:** \n",
            )
 
     os.remove("final.png")
