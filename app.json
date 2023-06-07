@@ -1,9 +1,9 @@
 {
-    "name": "misty ✘ ᴍᴜsɪᴄ",
-    "logo": "https://graph.org/file/92484a4578afe8348ed74.jpg",
-    "description": "ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴛʜᴇ ʙᴏᴛ ʜᴜʙ.",
+    "name": "𝗔𝖗𝖎𝖆 𝖝 𝗠𝖚𝖘𝖎𝖈",
+    "logo": "https://graph.org/file/c2f110353910f1a166016.jpg",
+    "description": "ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ᴍᴜsɪᴄ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴛʜᴇ ᴀʀɪᴀ sᴇʀᴠᴇʀ.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/Anup8273/opbotnew",
+    "repository": "https://github.com/KhuniVillan/AriaOp",
     "stack": "container",
     "env": {
         "BOT_USERNAME": {
