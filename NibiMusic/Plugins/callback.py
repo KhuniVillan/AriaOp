@@ -9,7 +9,7 @@ from pyrogram.errors import MessageNotModified
 
 
 HOME_TEXT = """
-ʜɪ ɢᴜʏꜱ, ɪ ᴀᴍ ᴠᴇʀʏ ʜɪɢʜʟʏ ᴀ.ɪ ᴀᴅᴠᴀɴᴄᴇᴅ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴠᴄ ʙᴏᴛ.
+ʜɪ ɢᴜʏꜱ, ɪ ᴀᴍ ᴀʀɪᴀ ᴍᴜsɪᴄ ᴀ ᴠᴇʀʏ ʜɪɢʜʟʏ ᴀ.ɪ ᴀᴅᴠᴀɴᴄᴇᴅ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴠᴄ ʙᴏᴛ.
 ɪ' ᴍ ᴠᴇʀʏ ғᴀꜱᴛ ᴀɴᴅ ᴍᴏʀᴇ ᴇꜰꜰɪᴄɪᴇɴᴛ ɪ ᴘʀᴏᴠɪᴅᴇ ᴀᴡᴇꜱᴏᴍᴇ ꜱᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ !
 """
 
@@ -46,15 +46,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="home":
         buttons = [
         [
-            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/Mistyopmusic_bot?startgroup=true")
+            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/AriaXMusic_bot?startgroup=true")
         ],
         [
-            InlineKeyboardButton("🍂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/best_friends_chatting_grup"),
-            InlineKeyboardButton("🌾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/mistyamraj_ki_kahani")
+            InlineKeyboardButton("🍂 sᴜᴘᴘᴏʀᴛ", url="https://t.me/lovingfriendsforever"),
+            InlineKeyboardButton("🌾 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Dil_se_dil_tak_01")
         ],
         [
             InlineKeyboardButton("🧰 ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_cmd"),
-            InlineKeyboardButton("🎓 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/mrs_yamraj"),
+            InlineKeyboardButton("🎓 ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/MrKhunii"),
         ]
    
      ]
