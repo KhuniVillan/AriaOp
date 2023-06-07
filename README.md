@@ -1,6 +1,6 @@
-# MISTY ᴍᴜsɪᴄ
+# 𝗔𝖗𝖎𝖆 𝖝 𝗠𝖚𝖘𝖎𝖈
 
-<p align="center"><img src="https://graph.org/file/92484a4578afe8348ed74.jpg" width="300"></a></p>
+<p align="center"><img src="https://graph.org/file/c2f110353910f1a166016.jpg" width="300"></a></p>
 <p align="center">
 
 
@@ -12,7 +12,7 @@
     ─ ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Anup8273/opbotnew"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/KhuniVillan/AriaOp"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 <p align="center">
     🧪 ɢᴇᴛ sᴛʀɪɴɢ sᴇssɪᴏɴ ꜰʀᴏᴍ ʜᴇʀᴇ:
@@ -20,7 +20,7 @@
 [ɴɪʙɪ sᴛʀɪɴɢ ʙᴏᴛ](https://telegram.dog/NibiStringBot)
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ
-<a href="https://telegram.dog/BlackWorldMF"><img src="https://img.shields.io/badge/Join-Group%20Support-black.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://telegram.dog/TheBothub"><img src="https://img.shields.io/badge/Join-Updates%20Channel-black.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.dog/lovingfriendsforever"><img src="https://img.shields.io/badge/Join-Group%20Support-black.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://telegram.dog/Dil_se_dil_tak_01"><img src="https://img.shields.io/badge/Join-Updates%20Channel-black.svg?style=for-the-badge&logo=Telegram"></a>
 
  
 
